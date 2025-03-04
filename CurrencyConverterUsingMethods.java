@@ -18,7 +18,13 @@ class CurrencyConverterUsingMethods
 	public static void usdToEuro(float usd){
 		float euro=usd*1.05f;
 		System.out.println(usd+" USD is "+euro+" Euro");
+		euroToDirham(euro);
 					
+	}
+
+	public static void euroToDirham(float euro){
+			float dirham=euro*3.85f;
+			System.out.println(euro+" Euro is "+dirham+" Dirham");
 	}
 	
 	
